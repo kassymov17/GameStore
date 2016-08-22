@@ -34,3 +34,5 @@ C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.UnitTests\bin\Debug\ru\System.Web.Mvc.resources.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.UnitTests\bin\Debug\EntityFramework.xml
