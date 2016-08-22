@@ -17,3 +17,8 @@ C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\ru\System.Web.Mvc.resources.dll
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.Domain\obj\Debug\GameStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll.config
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\EntityFramework.SqlServer.xml

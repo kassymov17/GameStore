@@ -44,3 +44,7 @@ C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.WebUI\bin\Moq.xml
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.WebUI\bin\GameStore.Domain.dll
 C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\GameStore.WebUI\bin\GameStore.Domain.pdb
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\EntityFramework.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\EntityFramework.xml
+C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\EntityFramework.SqlServer.xml
