@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="675c6ecd-0413-464a-b5ab-7e0955d608bb" name="Еламан@YELAMAN 2016-08-23 17:01:07" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="d2efc63d-66ec-40bb-b0db-85bac1ca0f2e">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-08-23 17_01_07" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-08-23T17:01:07.1785348+06:00" queuing="2016-08-23T17:01:07.2525390+06:00" start="2016-08-23T17:01:07.4235488+06:00" finish="2016-08-23T17:01:08.2925985+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CanChangeLoginName" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\testingdemo\testingdemo\bin\debug\testingdemo.dll" id="6e04680b-98ee-4548-17c0-8d7e32fdff10">
+      <Execution id="db998e98-0814-4cbc-b8b8-ebfc476dce47" />
+      <TestMethod codeBase="C:/Users/Еламан/Documents/Visual Studio 2010/Projects/GameStore/TestingDemo/TestingDemo/bin/Debug/TestingDemo.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestingDemo.AdminControllerTests, TestingDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CanChangeLoginName" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6e04680b-98ee-4548-17c0-8d7e32fdff10" executionId="db998e98-0814-4cbc-b8b8-ebfc476dce47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="db998e98-0814-4cbc-b8b8-ebfc476dce47" testId="6e04680b-98ee-4548-17c0-8d7e32fdff10" testName="CanChangeLoginName" computerName="YELAMAN" duration="00:00:00.4453367" startTime="2016-08-23T17:01:07.5145540+06:00" endTime="2016-08-23T17:01:08.1625911+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db998e98-0814-4cbc-b8b8-ebfc476dce47">
+      <Output>
+        <ErrorInfo>
+          <Message>Метод проверки TestingDemo.AdminControllerTests.CanChangeLoginName выдал исключение: System.InvalidOperationException: Последовательность не содержит соответствующий элемент.</Message>
+          <StackTrace>    в System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   в TestingDemo.FakeRepository.FetchByLoginName(String loginName) в C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\AdminControllerTests.cs:строка 44
+   в TestingDemo.AdminController.ChangeLoginName(String oldName, String newName) в C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\AdminController.cs:строка 20
+   в TestingDemo.AdminControllerTests.CanChangeLoginName() в C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\AdminControllerTests.cs:строка 24
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
