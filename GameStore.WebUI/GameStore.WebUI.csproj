@@ -127,6 +127,7 @@
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\NavController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -187,6 +188,7 @@
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\Shared\GameSummary.cshtml" />
+    <Content Include="Views\Nav\Menu.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
