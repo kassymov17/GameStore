@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d8115a53-8e4b-4e4b-97f8-2394f9eb7fc9" name="Еламан@YELAMAN 2016-09-02 19:01:17" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="0a2bf3eb-2d22-4aeb-8e8a-f5e1b00992af">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-02 19_01_17">
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\GameStore.WebUI.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-09-02T19:01:17.7759887+06:00" queuing="2016-09-02T19:01:17.8369888+06:00" start="2016-09-02T19:01:17.8569888+06:00" finish="2016-09-02T19:01:18.1289999+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Add_Quantity_For_Existing_Lines" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="c3d0a665-2a02-f636-c9c4-8886672f1f44">
+      <Execution id="b00864e1-2b4b-4ffd-acaf-4783954976d2" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_Quantity_For_Existing_Lines" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c3d0a665-2a02-f636-c9c4-8886672f1f44" executionId="b00864e1-2b4b-4ffd-acaf-4783954976d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b00864e1-2b4b-4ffd-acaf-4783954976d2" testId="c3d0a665-2a02-f636-c9c4-8886672f1f44" testName="Can_Add_Quantity_For_Existing_Lines" computerName="YELAMAN" duration="00:00:00.0398131" startTime="2016-09-02T19:01:17.8669889+06:00" endTime="2016-09-02T19:01:18.0989999+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b00864e1-2b4b-4ffd-acaf-4783954976d2">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;1&gt;. Фактически: &lt;2&gt;. </Message>
+          <StackTrace>   в GameStore.UnitTests.CartTests.Can_Add_Quantity_For_Existing_Lines() в C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.UnitTests\CartTests.cs:строка 52
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

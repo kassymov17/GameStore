@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="91677d75-a921-479f-851c-bf1592cd98e8" name="Еламан@YELAMAN 2016-09-05 00:20:43" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="0a2bf3eb-2d22-4aeb-8e8a-f5e1b00992af">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-05 00_20_43">
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.WebUI\bin\GameStore.WebUI.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.MVC3.3.0.0.6\lib\net40-full\Ninject.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.3.0.1.10\lib\net40\Ninject.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Microsoft.AspNet.WebPages.2.0.30506.0\lib\net40\System.Web.WebPages.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-09-05T00:20:43.3987403+06:00" queuing="2016-09-05T00:20:44.5118040+06:00" start="2016-09-05T00:20:44.5328052+06:00" finish="2016-09-05T00:20:45.0608354+06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Can_Generate_Page_Links" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="6b603043-6690-9ebb-29ee-c7d8d1fa2129">
+      <Execution id="82fc74f0-359a-4a64-841e-a3a6c97144f7" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Generate_Page_Links" />
+    </UnitTest>
+    <UnitTest name="Adding_Game_To_Cart_Goes_To_Cart_Screen" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="d015db9f-09f9-a6dd-70d6-11ac2e91cd8f">
+      <Execution id="e64a3fe6-cda1-4509-baa1-90281f8e0597" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Adding_Game_To_Cart_Goes_To_Cart_Screen" />
+    </UnitTest>
+    <UnitTest name="Can_Send_Pagination_View_Model" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="b142008b-1c74-0a07-8c5f-1a5ba4597db9">
+      <Execution id="046e0eaf-05a8-43eb-8f82-20c9b97e7916" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Send_Pagination_View_Model" />
+    </UnitTest>
+    <UnitTest name="Can_Add_New_Lines" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="4b11be1e-0147-6757-ed88-c3ca120b8393">
+      <Execution id="29c578df-3a03-49a4-a63b-7e0af56312d8" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_New_Lines" />
+    </UnitTest>
+    <UnitTest name="Can_Remove_Line" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="65a3b945-5550-2539-a824-1449c94b8349">
+      <Execution id="25276f83-e883-4e0b-b982-5fa727c01f09" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Remove_Line" />
+    </UnitTest>
+    <UnitTest name="Indicates_Selected_Category" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="04ef04bc-e56d-1246-2057-5651d8144123">
+      <Execution id="268ed785-851c-48a3-a9c4-fd8b3ce3c458" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Indicates_Selected_Category" />
+    </UnitTest>
+    <UnitTest name="Can_Add_To_Cart" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="4beb1963-bd3d-409d-04c7-c9fd253e24c3">
+      <Execution id="a40cf349-d5d7-40b8-ad62-4c087c378616" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_To_Cart" />
+    </UnitTest>
+    <UnitTest name="Can_Clear_Contents" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="b11a8146-e8ac-0c3d-a270-8c83fc827046">
+      <Execution id="821e9c08-0ab4-4edb-8f79-ee64e759ff09" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Clear_Contents" />
+    </UnitTest>
+    <UnitTest name="Can_Add_Quantity_For_Existing_Lines" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="c3d0a665-2a02-f636-c9c4-8886672f1f44">
+      <Execution id="36e1c1ec-261d-4c53-975a-fdff5782d12d" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_Quantity_For_Existing_Lines" />
+    </UnitTest>
+    <UnitTest name="Can_Create_Categories" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="df04eb1a-5f46-c40f-ec5d-af6c795c7543">
+      <Execution id="e1e3b4e7-164d-4dd7-a972-698c378d653c" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Create_Categories" />
+    </UnitTest>
+    <UnitTest name="Can_Filter_Games" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="4ed91e91-ba98-8123-d5cf-75198368b49a">
+      <Execution id="622be66b-0093-4bca-acc8-292d021cae81" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Filter_Games" />
+    </UnitTest>
+    <UnitTest name="Calculate_Cart_Total" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="77126ac4-a0ad-cef9-f890-c950e0427319">
+      <Execution id="edf0702d-72bc-4ffd-9476-e484b45ddec0" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Calculate_Cart_Total" />
+    </UnitTest>
+    <UnitTest name="Can_Paginate" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="152d80c6-e548-6975-32ff-526eac72799d">
+      <Execution id="75a607ba-776d-4aa0-9d8d-ff0bb2de8ce3" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Paginate" />
+    </UnitTest>
+    <UnitTest name="Generate_Category_Specific_Game_Count" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="6f148397-cdda-1699-0e91-5a93557bc4fa">
+      <Execution id="7856903b-9e16-4409-9414-e7d729d70d3f" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.UnitTest1, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Generate_Category_Specific_Game_Count" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04ef04bc-e56d-1246-2057-5651d8144123" executionId="268ed785-851c-48a3-a9c4-fd8b3ce3c458" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="152d80c6-e548-6975-32ff-526eac72799d" executionId="75a607ba-776d-4aa0-9d8d-ff0bb2de8ce3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b11be1e-0147-6757-ed88-c3ca120b8393" executionId="29c578df-3a03-49a4-a63b-7e0af56312d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4beb1963-bd3d-409d-04c7-c9fd253e24c3" executionId="a40cf349-d5d7-40b8-ad62-4c087c378616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ed91e91-ba98-8123-d5cf-75198368b49a" executionId="622be66b-0093-4bca-acc8-292d021cae81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65a3b945-5550-2539-a824-1449c94b8349" executionId="25276f83-e883-4e0b-b982-5fa727c01f09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b603043-6690-9ebb-29ee-c7d8d1fa2129" executionId="82fc74f0-359a-4a64-841e-a3a6c97144f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f148397-cdda-1699-0e91-5a93557bc4fa" executionId="7856903b-9e16-4409-9414-e7d729d70d3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77126ac4-a0ad-cef9-f890-c950e0427319" executionId="edf0702d-72bc-4ffd-9476-e484b45ddec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b11a8146-e8ac-0c3d-a270-8c83fc827046" executionId="821e9c08-0ab4-4edb-8f79-ee64e759ff09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b142008b-1c74-0a07-8c5f-1a5ba4597db9" executionId="046e0eaf-05a8-43eb-8f82-20c9b97e7916" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3d0a665-2a02-f636-c9c4-8886672f1f44" executionId="36e1c1ec-261d-4c53-975a-fdff5782d12d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d015db9f-09f9-a6dd-70d6-11ac2e91cd8f" executionId="e64a3fe6-cda1-4509-baa1-90281f8e0597" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df04eb1a-5f46-c40f-ec5d-af6c795c7543" executionId="e1e3b4e7-164d-4dd7-a972-698c378d653c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="268ed785-851c-48a3-a9c4-fd8b3ce3c458" testId="04ef04bc-e56d-1246-2057-5651d8144123" testName="Indicates_Selected_Category" computerName="YELAMAN" duration="00:00:00.2060721" startTime="2016-09-05T00:20:44.5508062+06:00" endTime="2016-09-05T00:20:44.9598296+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="268ed785-851c-48a3-a9c4-fd8b3ce3c458">
+    </UnitTestResult>
+    <UnitTestResult executionId="75a607ba-776d-4aa0-9d8d-ff0bb2de8ce3" testId="152d80c6-e548-6975-32ff-526eac72799d" testName="Can_Paginate" computerName="YELAMAN" duration="00:00:00.0045082" startTime="2016-09-05T00:20:44.9618297+06:00" endTime="2016-09-05T00:20:44.9698302+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75a607ba-776d-4aa0-9d8d-ff0bb2de8ce3">
+    </UnitTestResult>
+    <UnitTestResult executionId="29c578df-3a03-49a4-a63b-7e0af56312d8" testId="4b11be1e-0147-6757-ed88-c3ca120b8393" testName="Can_Add_New_Lines" computerName="YELAMAN" duration="00:00:00.0019457" startTime="2016-09-05T00:20:44.9718303+06:00" endTime="2016-09-05T00:20:44.9768306+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29c578df-3a03-49a4-a63b-7e0af56312d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="a40cf349-d5d7-40b8-ad62-4c087c378616" testId="4beb1963-bd3d-409d-04c7-c9fd253e24c3" testName="Can_Add_To_Cart" computerName="YELAMAN" duration="00:00:00.0028073" startTime="2016-09-05T00:20:44.9788307+06:00" endTime="2016-09-05T00:20:44.9838310+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a40cf349-d5d7-40b8-ad62-4c087c378616">
+    </UnitTestResult>
+    <UnitTestResult executionId="622be66b-0093-4bca-acc8-292d021cae81" testId="4ed91e91-ba98-8123-d5cf-75198368b49a" testName="Can_Filter_Games" computerName="YELAMAN" duration="00:00:00.0017311" startTime="2016-09-05T00:20:44.9858311+06:00" endTime="2016-09-05T00:20:44.9908314+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="622be66b-0093-4bca-acc8-292d021cae81">
+    </UnitTestResult>
+    <UnitTestResult executionId="25276f83-e883-4e0b-b982-5fa727c01f09" testId="65a3b945-5550-2539-a824-1449c94b8349" testName="Can_Remove_Line" computerName="YELAMAN" duration="00:00:00.0011769" startTime="2016-09-05T00:20:44.9928315+06:00" endTime="2016-09-05T00:20:44.9958317+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25276f83-e883-4e0b-b982-5fa727c01f09">
+    </UnitTestResult>
+    <UnitTestResult executionId="82fc74f0-359a-4a64-841e-a3a6c97144f7" testId="6b603043-6690-9ebb-29ee-c7d8d1fa2129" testName="Can_Generate_Page_Links" computerName="YELAMAN" duration="00:00:00.0028601" startTime="2016-09-05T00:20:44.9988318+06:00" endTime="2016-09-05T00:20:45.0038321+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82fc74f0-359a-4a64-841e-a3a6c97144f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="7856903b-9e16-4409-9414-e7d729d70d3f" testId="6f148397-cdda-1699-0e91-5a93557bc4fa" testName="Generate_Category_Specific_Game_Count" computerName="YELAMAN" duration="00:00:00.0016089" startTime="2016-09-05T00:20:45.0058322+06:00" endTime="2016-09-05T00:20:45.0098325+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7856903b-9e16-4409-9414-e7d729d70d3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="edf0702d-72bc-4ffd-9476-e484b45ddec0" testId="77126ac4-a0ad-cef9-f890-c950e0427319" testName="Calculate_Cart_Total" computerName="YELAMAN" duration="00:00:00.0011098" startTime="2016-09-05T00:20:45.0118326+06:00" endTime="2016-09-05T00:20:45.0158328+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edf0702d-72bc-4ffd-9476-e484b45ddec0">
+    </UnitTestResult>
+    <UnitTestResult executionId="821e9c08-0ab4-4edb-8f79-ee64e759ff09" testId="b11a8146-e8ac-0c3d-a270-8c83fc827046" testName="Can_Clear_Contents" computerName="YELAMAN" duration="00:00:00.0004567" startTime="2016-09-05T00:20:45.0178329+06:00" endTime="2016-09-05T00:20:45.0208331+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="821e9c08-0ab4-4edb-8f79-ee64e759ff09">
+    </UnitTestResult>
+    <UnitTestResult executionId="046e0eaf-05a8-43eb-8f82-20c9b97e7916" testId="b142008b-1c74-0a07-8c5f-1a5ba4597db9" testName="Can_Send_Pagination_View_Model" computerName="YELAMAN" duration="00:00:00.0012889" startTime="2016-09-05T00:20:45.0218332+06:00" endTime="2016-09-05T00:20:45.0268334+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="046e0eaf-05a8-43eb-8f82-20c9b97e7916">
+    </UnitTestResult>
+    <UnitTestResult executionId="36e1c1ec-261d-4c53-975a-fdff5782d12d" testId="c3d0a665-2a02-f636-c9c4-8886672f1f44" testName="Can_Add_Quantity_For_Existing_Lines" computerName="YELAMAN" duration="00:00:00.0009278" startTime="2016-09-05T00:20:45.0288336+06:00" endTime="2016-09-05T00:20:45.0318337+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36e1c1ec-261d-4c53-975a-fdff5782d12d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e64a3fe6-cda1-4509-baa1-90281f8e0597" testId="d015db9f-09f9-a6dd-70d6-11ac2e91cd8f" testName="Adding_Game_To_Cart_Goes_To_Cart_Screen" computerName="YELAMAN" duration="00:00:00.0010944" startTime="2016-09-05T00:20:45.0338338+06:00" endTime="2016-09-05T00:20:45.0378341+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e64a3fe6-cda1-4509-baa1-90281f8e0597">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1e3b4e7-164d-4dd7-a972-698c378d653c" testId="df04eb1a-5f46-c40f-ec5d-af6c795c7543" testName="Can_Create_Categories" computerName="YELAMAN" duration="00:00:00.0026529" startTime="2016-09-05T00:20:45.0398342+06:00" endTime="2016-09-05T00:20:45.0448345+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1e3b4e7-164d-4dd7-a972-698c378d653c">
+    </UnitTestResult>
+  </Results>
+</TestRun>
