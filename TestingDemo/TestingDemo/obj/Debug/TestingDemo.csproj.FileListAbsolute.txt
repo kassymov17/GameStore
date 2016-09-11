@@ -1,4 +1,0 @@
-C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\bin\Debug\TestingDemo.dll
-C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\bin\Debug\TestingDemo.pdb
-C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\obj\Debug\TestingDemo.dll
-C:\Users\Еламан\Documents\Visual Studio 2010\Projects\GameStore\TestingDemo\TestingDemo\obj\Debug\TestingDemo.pdb
