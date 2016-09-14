@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="47204a5e-ad82-4be3-bf9d-c13f23f8c819" name="Еламан@YELAMAN 2016-09-02 18:42:51" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<TestRun id="52f32a20-2c0d-49b0-87de-17435217cffc" name="Еламан@YELAMAN 2016-09-13 15:25:36" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <TestSettings name="Локальные" id="0a2bf3eb-2d22-4aeb-8e8a-f5e1b00992af">
     <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
-    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-02 18_42_51">
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-13 15_25_36">
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" />
@@ -24,14 +24,14 @@
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2016-09-02T18:42:51.1650358+06:00" queuing="2016-09-02T18:42:51.2250359+06:00" start="2016-09-02T18:42:51.2350359+06:00" finish="2016-09-02T18:42:51.5170420+06:00" />
-  <ResultSummary outcome="Failed">
-    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  <Times creation="2016-09-13T15:25:36.9127357+06:00" queuing="2016-09-13T15:25:38.1048039+06:00" start="2016-09-13T15:25:38.1208048+06:00" finish="2016-09-13T15:25:38.5578298+06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Can_Add_New_Lines" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="4b11be1e-0147-6757-ed88-c3ca120b8393">
-      <Execution id="c8be790d-1433-42db-b8ed-4c59d2eed335" />
-      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_New_Lines" />
+    <UnitTest name="Can_Edit_Game" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="16fdb827-1b46-6e19-32df-8ccd46d91a7a">
+      <Execution id="25abd05c-343d-4604-b391-44d632013986" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.AdminTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Edit_Game" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -39,17 +39,10 @@
     <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="4b11be1e-0147-6757-ed88-c3ca120b8393" executionId="c8be790d-1433-42db-b8ed-4c59d2eed335" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16fdb827-1b46-6e19-32df-8ccd46d91a7a" executionId="25abd05c-343d-4604-b391-44d632013986" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="c8be790d-1433-42db-b8ed-4c59d2eed335" testId="4b11be1e-0147-6757-ed88-c3ca120b8393" testName="Can_Add_New_Lines" computerName="YELAMAN" duration="00:00:00.0701497" startTime="2016-09-02T18:42:51.2550359+06:00" endTime="2016-09-02T18:42:51.4970419+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8be790d-1433-42db-b8ed-4c59d2eed335">
-      <Output>
-        <ErrorInfo>
-          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;2&gt;. Фактически: &lt;3&gt;. </Message>
-          <StackTrace>   в GameStore.UnitTests.CartTests.Can_Add_New_Lines() в C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.UnitTests\CartTests.cs:строка 29
-</StackTrace>
-        </ErrorInfo>
-      </Output>
+    <UnitTestResult executionId="25abd05c-343d-4604-b391-44d632013986" testId="16fdb827-1b46-6e19-32df-8ccd46d91a7a" testName="Can_Edit_Game" computerName="YELAMAN" duration="00:00:00.1963180" startTime="2016-09-13T15:25:38.1688075+06:00" endTime="2016-09-13T15:25:38.5408288+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25abd05c-343d-4604-b391-44d632013986">
     </UnitTestResult>
   </Results>
 </TestRun>

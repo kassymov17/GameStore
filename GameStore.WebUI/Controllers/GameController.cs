@@ -37,6 +37,7 @@ namespace GameStore.WebUI.Controllers
                 },
                 CurrentCategory=category
             };
+
             return View(model);
         }
     }

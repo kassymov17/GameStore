@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="1109e51c-392d-4dc1-93b0-7ccf2d3386f6" name="Еламан@YELAMAN 2016-09-02 18:43:02" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<TestRun id="de8e1306-22d5-44bc-a7f9-00c17fa78ac4" name="Еламан@YELAMAN 2016-09-13 15:42:03" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <TestSettings name="Локальные" id="0a2bf3eb-2d22-4aeb-8e8a-f5e1b00992af">
     <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
-    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-02 18_43_02">
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-13 15_42_03">
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" />
@@ -24,14 +24,14 @@
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2016-09-02T18:43:02.1650847+06:00" queuing="2016-09-02T18:43:02.2590850+06:00" start="2016-09-02T18:43:02.2690850+06:00" finish="2016-09-02T18:43:02.5200977+06:00" />
+  <Times creation="2016-09-13T15:42:03.3321557+06:00" queuing="2016-09-13T15:42:04.8902448+06:00" start="2016-09-13T15:42:04.9032455+06:00" finish="2016-09-13T15:42:05.3832730+06:00" />
   <ResultSummary outcome="Completed">
     <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Can_Add_New_Lines" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="4b11be1e-0147-6757-ed88-c3ca120b8393">
-      <Execution id="efaabbd6-3f35-4ce7-86f4-f3c54797498b" />
-      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Add_New_Lines" />
+    <UnitTest name="Cannot_Edit_Nonexistent_Game" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="ce0a448e-a6bc-4a13-4811-8c194ca04246">
+      <Execution id="2e050ea5-ec42-4681-b070-537aebe5eed3" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.AdminTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Cannot_Edit_Nonexistent_Game" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -39,10 +39,10 @@
     <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="4b11be1e-0147-6757-ed88-c3ca120b8393" executionId="efaabbd6-3f35-4ce7-86f4-f3c54797498b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce0a448e-a6bc-4a13-4811-8c194ca04246" executionId="2e050ea5-ec42-4681-b070-537aebe5eed3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="efaabbd6-3f35-4ce7-86f4-f3c54797498b" testId="4b11be1e-0147-6757-ed88-c3ca120b8393" testName="Can_Add_New_Lines" computerName="YELAMAN" duration="00:00:00.0211810" startTime="2016-09-02T18:43:02.2890850+06:00" endTime="2016-09-02T18:43:02.4940962+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efaabbd6-3f35-4ce7-86f4-f3c54797498b">
+    <UnitTestResult executionId="2e050ea5-ec42-4681-b070-537aebe5eed3" testId="ce0a448e-a6bc-4a13-4811-8c194ca04246" testName="Cannot_Edit_Nonexistent_Game" computerName="YELAMAN" duration="00:00:00.1939622" startTime="2016-09-13T15:42:04.9232467+06:00" endTime="2016-09-13T15:42:05.3642719+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e050ea5-ec42-4681-b070-537aebe5eed3">
     </UnitTestResult>
   </Results>
 </TestRun>

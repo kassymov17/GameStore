@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="ab24a960-a35e-4902-96c4-68ffdf88405d" name="Еламан@YELAMAN 2016-09-02 19:17:45" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+<TestRun id="85da32be-efb4-4f17-80d5-10226281c629" name="Еламан@YELAMAN 2016-09-13 01:53:05" runUser="Yelaman\Еламан" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
   <TestSettings name="Локальные" id="0a2bf3eb-2d22-4aeb-8e8a-f5e1b00992af">
     <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
-    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-02 19_17_45">
+    <Deployment enabled="false" runDeploymentRoot="Еламан_YELAMAN 2016-09-13 01_53_05">
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Moq.4.1.1309.1617\lib\net40\Moq.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.Domain\bin\Debug\GameStore.Domain.dll" />
       <DeploymentItem filename="C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\packages\Ninject.Web.Common.3.0.0.7\lib\net40-full\Ninject.Web.Common.dll" />
@@ -24,14 +24,14 @@
       </AgentRule>
     </Execution>
   </TestSettings>
-  <Times creation="2016-09-02T19:17:45.2089232+06:00" queuing="2016-09-02T19:17:45.2839275+06:00" start="2016-09-02T19:17:45.3019285+06:00" finish="2016-09-02T19:17:45.5419423+06:00" />
-  <ResultSummary outcome="Completed">
-    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  <Times creation="2016-09-13T01:53:05.5976058+06:00" queuing="2016-09-13T01:53:09.2518148+06:00" start="2016-09-13T01:53:09.3288192+06:00" finish="2016-09-13T01:53:09.9678558+06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
   </ResultSummary>
   <TestDefinitions>
-    <UnitTest name="Can_Remove_Line" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="65a3b945-5550-2539-a824-1449c94b8349">
-      <Execution id="2177c579-152e-4ed9-a56d-cca67cf3b905" />
-      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.CartTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Can_Remove_Line" />
+    <UnitTest name="Index_Contains_All_Games" storage="c:\users\еламан\documents\visual studio 2010\projects\gamestore\gamestore.unittests\bin\debug\gamestore.unittests.dll" id="5566f377-d607-2203-71e4-f4a8f11687e8">
+      <Execution id="5ad87772-0095-4d79-a053-eb5621adad71" />
+      <TestMethod codeBase="C:/Users/Еламан/documents/visual studio 2010/Projects/GameStore/GameStore.UnitTests/bin/Debug/GameStore.UnitTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameStore.UnitTests.AdminTests, GameStore.UnitTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index_Contains_All_Games" />
     </UnitTest>
   </TestDefinitions>
   <TestLists>
@@ -39,10 +39,17 @@
     <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
   </TestLists>
   <TestEntries>
-    <TestEntry testId="65a3b945-5550-2539-a824-1449c94b8349" executionId="2177c579-152e-4ed9-a56d-cca67cf3b905" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5566f377-d607-2203-71e4-f4a8f11687e8" executionId="5ad87772-0095-4d79-a053-eb5621adad71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <Results>
-    <UnitTestResult executionId="2177c579-152e-4ed9-a56d-cca67cf3b905" testId="65a3b945-5550-2539-a824-1449c94b8349" testName="Can_Remove_Line" computerName="YELAMAN" duration="00:00:00.0205690" startTime="2016-09-02T19:17:45.3119291+06:00" endTime="2016-09-02T19:17:45.5219411+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2177c579-152e-4ed9-a56d-cca67cf3b905">
+    <UnitTestResult executionId="5ad87772-0095-4d79-a053-eb5621adad71" testId="5566f377-d607-2203-71e4-f4a8f11687e8" testName="Index_Contains_All_Games" computerName="YELAMAN" duration="00:00:00.2630549" startTime="2016-09-13T01:53:09.3558208+06:00" endTime="2016-09-13T01:53:09.9338538+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ad87772-0095-4d79-a053-eb5621adad71">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.AreEqual. Ожидается: &lt;Игра3&gt;. Фактически: &lt;Игра2&gt;. </Message>
+          <StackTrace>   в GameStore.UnitTests.AdminTests.Index_Contains_All_Games() в C:\Users\Еламан\documents\visual studio 2010\Projects\GameStore\GameStore.UnitTests\AdminTests.cs:строка 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
     </UnitTestResult>
   </Results>
 </TestRun>
